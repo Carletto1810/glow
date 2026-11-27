@@ -476,3 +476,6 @@ func tryLoadConfigFromDefaultPlaces() {
 		log.Error("Could not create default configuration", "error", err)
 	}
 }
+
+
+var _ = erroreFileMancante
